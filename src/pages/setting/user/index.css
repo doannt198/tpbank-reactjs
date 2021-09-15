@@ -1,0 +1,132 @@
+
+/*Setting user*/
+.customer-info {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #ad8ad8;
+}
+
+.customer-info__left, .customer-info__right {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0 20px;
+}
+.customer-info__left {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 1px;
+}
+.customer-info__left > div {
+    height: 70px;
+    overflow: hidden;
+    max-height: 150px;
+    border-bottom: 1px solid #e1e3e8;
+    margin-top: 20px;
+    position: relative;
+}
+.customer-info__left .title-item, .customer-info__right .title-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.customer-info__left > div > div, .customer-info__right .customer-info__images div {
+    position: absolute;
+}
+
+.customer-info__left > div > div:nth-child(2), .customer-info__right > div > div:nth-child(2) {
+    top: 30px;
+    overflow: unset;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 16px;
+    color: #42236a;
+}
+.customer-info__btn-edit {
+    right: 10px;
+    cursor: pointer;
+    color: #ff9800;
+    position: absolute;
+}
+
+.customer-info__left .customer-info__entity-id {
+    height: 100px;
+}
+.customer-info__left > div:last-child, .customer-info__right > div:last-child {
+    border-bottom: unset;
+}
+
+.customer-info__left, .customer-info__right {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0 20px;
+}
+.customer-info__right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 1px;
+}
+.customer-info__right .customer-info__images, .customer-info__right .customer-info__place-provide {
+    overflow: hidden;
+    max-height: 150px;
+    border-bottom: 1px solid #e1e3e8;
+    margin-top: 20px;
+    position: relative;
+}
+.customer-info__right .customer-info__place-provide {
+    display: flex;
+}
+.customer-info__right .customer-info__place-provide div {
+    flex: 1;
+}
+
+.customer-info__right .customer-info__address .email-address, .customer-info__right .customer-info__address .full-address, .customer-info__right .customer-info__email .email-address, .customer-info__right .customer-info__email .full-address {
+    margin: 10px 0 16px;
+    color: #42236a;
+    word-break: break-word;
+}
+.customer-info__btn-edit {
+    right: 10px;
+    cursor: pointer;
+    color: #ff9800;
+    position: absolute;
+}
+.customer-info__right .customer-info__address .customer-info__btn-edit, .customer-info__right .customer-info__email .customer-info__btn-edit {
+    top: 0;
+}
+.customer-info__right .customer-info__address, .customer-info__right .customer-info__email {
+    border-bottom: 1px solid #e1e3e8;
+    margin-top: 20px;
+    min-height: 70px;
+}
+
+.customer-info__right .customer-info__images {
+    height: 100px;
+}
+
+
+/*End setting user*/
+
+@media screen and (max-width: 576px) {
+    /*setting user*/
+    .customer-info {
+         display: block;
+     }
+     .customer-info__right {
+         margin-top: 20px;
+     }
+    /*End setting user*/
+ }
+

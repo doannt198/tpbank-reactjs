@@ -1,0 +1,114 @@
+/*bill recurring */
+.tab-main {
+    width: 100%;
+    overflow: auto;
+}
+.tab-main .nav-tab {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.14);
+}
+
+.tab-main .nav-tab .nav-tab-button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #AD8AD8;
+    outline: none;
+    text-transform: capitalize;
+    padding: 0 24px 20px 24px;
+}
+
+.tab-main .nav-tab .nav-tab-button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #AD8AD8;
+    outline: none;
+    text-transform: capitalize;
+    padding: 0 24px 20px 24px;
+}
+
+.tab-main .nav-tab .nav-tab-button.active {
+    border-bottom: 2px solid #7b35bb;
+    color: #42236a;
+    font-weight: 500;
+}
+
+.recurring-content {
+    margin-top: 15px;
+}
+
+.recurring-content .intro-content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.recurring-content .intro-content img {
+    width: 400px;
+}
+
+
+.recurring-content .intro-content .slogan {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    left: 278px;
+    color: #fff;
+}
+
+.recurring-item-add {
+    display: flex;
+    background: #fff;
+    width: 176px;
+    height: 44px;
+    position: absolute;
+    top: 52px;
+}
+
+.recurring-item-add .icon-add-recurring {
+    width: 15px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.recurring-content .intro-content img {
+    width: 400px;
+}
+
+.recurring-item-add .text-add-recurring {
+    margin: 12px 0 0 9px;
+    font-weight: 500;
+    color: #ff9800;
+}
+
+.content-description {
+    text-align: center;
+}
+.content-description .icon-oder {
+    width: 65px;
+    height: 65px;
+    margin: 25px auto;
+    opacity: .2;
+}
+/*end bill recurring*/
+
+
+/*End Page body*/
+/*_____ End Page body ______*/
+
+
+@media screen and (max-width: 575px) {
+   /*bill recurring */
+   .nav-tab {
+        width: max-content;
+        padding: 0;
+    }
+   /*end bill recurring */
+}

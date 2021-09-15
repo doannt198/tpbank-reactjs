@@ -1,0 +1,154 @@
+
+/*Bill electric detail*/
+.debit-acc-selector {
+    padding: 12px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.container-bill .content-bill, .container-bill .content-input, .container-bill .content-verify {
+    margin: 0 auto 25px;
+    padding: 0;
+}
+
+.container-bill .content-input {
+    max-width: 496px;
+}
+
+.container-bill .content-bill .info-amount, .container-bill .content-bill .info-bill, .container-bill .content-bill .info-owner, .container-bill .content-bill .info-provider, .container-bill .content-input .info-amount, .container-bill .content-input .info-bill, .container-bill .content-input .info-owner, .container-bill .content-input .info-provider, .container-bill .content-verify .info-amount, .container-bill .content-verify .info-bill, .container-bill .content-verify .info-owner, .container-bill .content-verify .info-provider {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+
+.container-bill .content-bill .info-amount, .container-bill .content-bill .info-bill, .container-bill .content-bill .info-provider, .container-bill .content-input .info-amount, .container-bill .content-input .info-bill, .container-bill .content-input .info-provider, .container-bill .content-verify .info-amount, .container-bill .content-verify .info-bill, .container-bill .content-verify .info-provider {
+    padding: 24px 20px;
+}
+
+.container-bill .content-bill .info-provider, .container-bill .content-input .info-provider, .container-bill .content-verify .info-provider {
+    min-height: 134px;
+    margin-bottom: 14px;
+}
+
+.container-bill .content-bill .info-amount .text-title, .container-bill .content-bill .info-bill .text-title, .container-bill .content-bill .info-owner .text-title, .container-bill .content-bill .info-provider .text-title, .container-bill .content-input .info-amount .text-title, .container-bill .content-input .info-bill .text-title, .container-bill .content-input .info-owner .text-title, .container-bill .content-input .info-provider .text-title, .container-bill .content-verify .info-amount .text-title, .container-bill .content-verify .info-bill .text-title, .container-bill .content-verify .info-owner .text-title, .container-bill .content-verify .info-provider .text-title {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #ad8ad8;
+    margin-bottom: 10px;
+}
+
+.text-provider {
+    margin-top: 5px;
+}
+
+.container-bill .content-bill .info-amount .icon-logo, .container-bill .content-bill .info-bill .icon-logo, .container-bill .content-bill .info-owner .icon-logo, .container-bill .content-bill .info-provider .icon-logo, .container-bill .content-input .info-amount .icon-logo, .container-bill .content-input .info-bill .icon-logo, .container-bill .content-input .info-owner .icon-logo, .container-bill .content-input .info-provider .icon-logo, .container-bill .content-verify .info-amount .icon-logo, .container-bill .content-verify .info-bill .icon-logo, .container-bill .content-verify .info-owner .icon-logo, .container-bill .content-verify .info-provider .icon-logo {
+    min-width: 35px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.container-bill .content-bill .info-amount .name-provider, .container-bill .content-bill .info-bill .name-provider, .container-bill .content-bill .info-owner .name-provider, .container-bill .content-bill .info-provider .name-provider, .container-bill .content-input .info-amount .name-provider, .container-bill .content-input .info-bill .name-provider, .container-bill .content-input .info-owner .name-provider, .container-bill .content-input .info-provider .name-provider, .container-bill .content-verify .info-amount .name-provider, .container-bill .content-verify .info-bill .name-provider, .container-bill .content-verify .info-owner .name-provider, .container-bill .content-verify .info-provider .name-provider {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #42236a;
+    text-transform: capitalize;
+}
+
+.container-bill .content-bill .input-customer-code, .container-bill .content-input .input-customer-code, .container-bill .content-verify .input-customer-code {
+    margin: 16px auto;
+    padding: 0;
+}
+
+.container-bill .content-bill .input-customer-code .input-content, .container-bill .content-input .input-customer-code .input-content, .container-bill .content-verify .input-customer-code .input-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #e2d8ee;
+    background-color: #fcfcfc;
+    width: 100%;
+    padding: 15px 9px 15px 15px;
+    margin: 16px 0;
+}
+
+input {
+    padding: 0;
+}
+
+.container-bill .content-bill .input-customer-code .input-content input, .container-bill .content-input .input-customer-code .input-content input, .container-bill .content-verify .input-customer-code .input-content input {
+    height: auto;
+    border-radius: 5px;
+    width: 90%;
+    border: none;
+    background: 0 0;
+    color: #42236a;
+}
+
+.container-bill .content-bill .input-customer-code .input-content .content-tooltip, .container-bill .content-input .input-customer-code .input-content .content-tooltip, .container-bill .content-verify .input-customer-code .input-content .content-tooltip {
+    cursor: pointer;
+    position: relative;
+    color: #ff9800;
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+}
+
+.container-bill .content-bill .input-customer-code .input-content .icon-question, .container-bill .content-input .input-customer-code .input-content .icon-question, .container-bill .content-verify .input-customer-code .input-content .icon-question {
+    width: 18px;
+    height: 18px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.btn-payment {
+    margin: 24px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}    
+
+.container-bill .btn-payment {
+    margin: 24px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-payment .btn-next-step {
+    width: 344px;
+}
+
+.container-bill .btn-payment .btn-next-step {
+    width: 344px;
+}
+
+
+
+@media screen and (max-width: 575px) {
+    /*Bill electric detail*/
+    .btn-payment {
+         flex-direction: column-reverse;
+     }
+ 
+     .btn-payment .btn-cancel, .btn-payment .btn-change, .btn-payment .btn-next-step {
+         width: 100%;
+     }
+ 
+     .container-bill .btn-payment .btn-next-step, .container-bill .content-confirm .button-action .btn {
+         width: 100%;
+     }
+    /*End bill electric detail*/
+ }
+ 

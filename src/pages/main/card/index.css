@@ -1,0 +1,255 @@
+
+.card-slider-container {
+    width: 100%;
+    max-width: 800px;
+    height: 230px;
+    position: relative;
+    margin-bottom: 30px;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.card-slider-container .swiper-wrapper {
+    height: 200px;
+}
+
+.card-slider-container .swiper-wrapper .card-slider-slide {
+    box-sizing: border-box;
+    width: 316px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+    background: center/cover no-repeat #ccc;
+}
+.card-slider-container .swiper-wrapper .slider-card {
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.71;
+    padding: 0 16px;
+    bottom: 24px;
+    width: 100%;
+    color: #fff;
+    text-shadow: 0 2px 2px #22304c;
+}
+.card-slider-container .swiper-wrapper .slider-card .card-no {
+    font-size: 16px;
+}
+.card-slider-container .swiper-wrapper .card-slider-slide {
+    box-sizing: border-box;
+    width: 316px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+    background: center/cover no-repeat #ccc;
+}
+.card-slider-container .swiper-wrapper .slider-card {
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.71;
+    padding: 0 16px;
+    bottom: 24px;
+    width: 100%;
+    color: #fff;
+    text-shadow: 0 2px 2px #22304c;
+}
+.card-slider-container .swiper-wrapper .slider-card .card-no {
+    font-size: 16px;
+}
+.card-slider-container .swiper-wrapper .card-slider-slide {
+    box-sizing: border-box;
+    width: 316px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+    background: center/cover no-repeat #ccc;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: url('../../../common/images/card/prev.svg');
+    left: 10px;
+    right: auto;
+}
+.card-slider-container .btn-slider {
+    width: 44px;
+    top: calc(50% - 15px);
+    background-size: contain;
+    outline: 0;
+}
+.card-slider-container .btn-slider.swiper-button-disabled, .card-slider-container .btn-slider.swiper-button-disabled + .card-slider-left-blur, .card-slider-container .btn-slider.swiper-button-disabled + .card-slider-right-blur {
+    display: none;
+}
+.card-slider-container .btn-slider.swiper-button-prev {
+    left: calc((100% - 316px - 80px)/ 2 - 60px);
+    background-image: url(https://ebank.tpb.vn/retail/vX/left.efead1f8ba004b811b68.svg);
+}
+.card-slider-container .card-slider-left-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc((100% - 316px - 80px)/ 2);
+    height: 200px;
+    border-radius: 0 10px 10px 0;
+    background-image: linear-gradient(to left,rgba(255,255,255,.75),rgba(235,235,250,.95) 41%,#ebebfa);
+    z-index: 2;
+}
+.card-slider-container .btn-slider.swiper-button-disabled, .card-slider-container .btn-slider.swiper-button-disabled + .card-slider-left-blur, .card-slider-container .btn-slider.swiper-button-disabled + .card-slider-right-blur {
+    display: none;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    background-image: url('../../../common/images/card/next.svg');
+    right: 10px;
+    left: auto;
+}
+.card-slider-container .btn-slider {
+    width: 44px;
+    top: calc(50% - 15px);
+    background-size: contain;
+    outline: 0;
+}
+.card-slider-container .btn-slider.swiper-button-next {
+    right: calc((100% - 316px - 80px)/ 2 - 60px);
+    background-image: url(https://ebank.tpb.vn/retail/vX/right.2ea3f338167de2bfbc23.svg);
+}
+.card-slider-container .card-slider-right-blur {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc((100% - 316px - 80px)/ 2);
+    height: 200px;
+    border-radius: 10px 0 0 10px;
+    background-image: linear-gradient(to right,rgba(255,255,255,.75),rgba(235,235,250,.95) 41%,#ebebfa);
+    z-index: 2;
+}
+.card-slider-container .swiper-pagination {
+    bottom: 0;
+}
+.card-slider-container .button-pag .swiper-pagination-bullet {
+    background: #e2d8ee;
+    opacity: 1;
+}
+.card-slider-container .button-pag .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #42236a;
+}
+.card-slider-container .button-pag .swiper-pagination-bullet {
+    background: #e2d8ee;
+    opacity: 1;
+}
+.card-detail {
+    position: relative;
+    opacity: 1;
+}
+.card-detail .btn-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+.card-detail .btn-area .btn-action {
+    text-align: center;
+    position: relative;
+    margin: inherit;
+    padding: inherit;
+    display: block;
+    justify-content: unset;
+    width: auto;
+}
+.card-detail .btn-area .btn-action .btn-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #fff;
+    margin: 0 33px 16px;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.card-detail .btn-area .btn-action .btn-icon.lock {
+    background-image: url('../../../common/images/card/ic_lock.152270754813aa33ca43.svg');
+}
+.card-detail .btn-area .btn-action p {
+    max-width: 120px;
+}
+.card-detail .btn-area .btn-action .btn-icon.open-card {
+    background-image: url('../../../common/images/card/ic_open_card.8292e16d7deb63613929.svg');
+}
+
+.card-detail .btn-area .btn-action .btn-icon.reset-card-pin {
+    background-image: url('../../../common/images/card/reset-card-pin.c8a1fa0047d32cb006ef.svg');
+}
+.card-detail .btn-area .btn-action .btn-icon.change-card-pin {
+    background-image: url('../../../common/images/card/change-card-pin.c1bf7182abe4c4164366.svg');
+}
+
+.card-detail .info-ares {
+    max-width: 496px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+.card-detail .info-ares .info-ares-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    margin-bottom: 26px;
+}
+.card-detail .info-ares .info-ares-item span:last-child {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card-detail .info-ares .info-ares-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    margin-bottom: 26px;
+}
+
+.card-detail .info-ares .info-ares-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    margin-bottom: 26px;
+}
+
+.card-detail .info-ares .card-debit-atm .view-status {
+    margin-bottom: 0;
+}
+
+.card-detail .info-ares .info-ares-item span:last-child {
+    font-weight: 500;
+    font-size: 16px;
+}
+.card-detail .info-ares .info-ares-item.view-status span:last-child {
+    color: #27ae60;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .card-slider-container {
+        height: 200px;
+    }
+    .card-slider-container .swiper-wrapper {
+        height: 168px;
+    }
+    .card-slider-container .swiper-wrapper .card-slider-slide {
+        width: 290px;
+    }
+    .card-slider-container .swiper-wrapper .slider-card {
+        margin-top: 50px;
+    }
+    .card-slider-container .swiper-wrapper .card-slider-slide {
+        width: 290px;
+    }
+    .card-slider-container .swiper-wrapper .slider-card {
+        margin-top: 50px;
+    }
+    .card-slider-container .swiper-wrapper .card-slider-slide {
+        width: 290px;
+    }
+}

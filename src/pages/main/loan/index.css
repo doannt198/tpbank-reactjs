@@ -1,0 +1,35 @@
+.list-card-link .card-link-wrapper {
+    display: inline-block;
+    width: 33.33%;
+    max-width: 256px;
+}
+
+@media screen and (max-width: 1130px) {
+    .card-customize:nth-child(odd) {
+        padding-right: 0;
+        margin-right: 16px;
+    }
+    .card-link-wrapper {
+        max-width: none;
+    }
+    .card-customize {
+        display: inline-block;
+        width: 48%;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .list-card-link {
+        margin-right: 0;
+    }
+    .card-link-wrapper {
+        max-width: none;
+    }
+    .card-customize {
+        display: block;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}

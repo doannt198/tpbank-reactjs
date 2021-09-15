@@ -1,0 +1,210 @@
+
+/*Bath*/
+.debit-acc-selector {
+    padding: 12px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.label-color {
+    color: #AD8AD8;
+}
+
+.upload-document-container .upload-document-wrap {
+    background: left top/25px 1px repeat-x,left bottom/25px 1px repeat-x,left top/1px 25px repeat-y,right top/1px 25px repeat-y #fff;
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 15px;
+    min-height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease 0s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    background-image: linear-gradient(to right,#ad8ad8 50%,transparent 50%),linear-gradient(to right,#ad8ad8 50%,transparent 50%),linear-gradient(to bottom,#ad8ad8 50%,transparent 50%),linear-gradient(to bottom,#ad8ad8 50%,transparent 50%);
+}
+
+.upload-document-container .upload-document-wrap .upload-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease 0s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+}
+
+.upload-document-container .upload-title {
+    font-weight: 500;
+}
+
+.upload-document-container .upload-icon {
+    width: 50px;
+    height: 64px;
+    margin: 22px 0;
+}
+
+.upload-document-container .select-file-button {
+    color: #ff9800;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.upload-document-container .upload-document-wrap input {
+    display: none;
+}
+/*End Bath*/
+
+@media only screen and (min-width: 1440px) { 
+    /* transfer bath*/
+    .batch-upload-file .row {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .batch-upload-file .row .text-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 450px;
+    }
+
+    .batch-upload-file .row .text-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+        width: 450px;
+    }
+
+    .batch-upload-file .row .btn-default {
+        width: 345px;
+        height: 48px;
+        margin-top: 25px;
+    }
+    /* end transfer bath*/
+}
+
+@media only screen and (max-width: 1439px) {
+    /* Bath */
+    .batch-upload-file .slide-section {
+        width: 100%;
+    }
+    
+    .batch-upload-file .row {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .batch-upload-file .row .text-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 450px;
+    }
+
+    .batch-upload-file .row .text-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+        width: 450px;
+    }
+
+    .batch-upload-file .row .file-upload {
+        color: #ff9800;
+        margin-top: 15px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .batch-upload-file .row .file-upload .icon-download {
+        margin-bottom: 4px;
+        margin-right: 10px;
+    }
+
+    .batch-upload-file .row .file-section {
+        width: 500px;
+        margin-top: 30px;
+    }
+
+    .batch-upload-file .row .btn-default {
+        width: 345px;
+        height: 48px;
+        margin-top: 25px;
+    }
+    /* End Bath */
+}
+
+
+@media screen and (max-width: 575px) {
+    /*Bath*/
+    .batch-upload-file .slide-section {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .batch-upload-file .row {
+        padding-left: 16px;
+        padding-right: 16px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .batch-upload-file .row .text-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 450px;
+    }
+
+    .batch-upload-file .row .text-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+        width: 450px;
+    }
+
+    .batch-upload-file .row .file-upload {
+        color: #ff9800;
+        margin-top: 15px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .batch-upload-file .row .file-upload .icon-download {
+        margin-bottom: 4px;
+        margin-right: 10px;
+    }
+
+    .batch-upload-file .row .file-section {
+        width: 500px;
+        margin-top: 30px;
+    }
+
+    .batch-upload-file .row .btn-default {
+        width: 100%;
+        font-weight: 500;
+        height: 48px;
+        margin-top: 24px;
+    }
+    /*End Bath*/
+}
+

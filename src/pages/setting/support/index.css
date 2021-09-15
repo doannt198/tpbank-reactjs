@@ -1,0 +1,64 @@
+
+/*Support*/
+.support {
+    display: flex;
+    flex-wrap: wrap;
+}
+.support__wrap-item {
+    width: calc(50% - 12px);
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+    background-color: #fff;
+    position: relative;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #42236a;
+}
+.support .first-item {
+    margin-right: 24px;
+}
+.support__wrap-item .support__call-center, .support__wrap-item .support__email, .support__wrap-item .support__email-title, .support__wrap-item .support__hotline {
+    position: absolute;
+}
+.support__wrap-item .support__email-title, .support__wrap-item .support__hotline {
+    font-size: 14px;
+    top: 13px;
+    color: #ad8ad8;
+}
+.support__wrap-item .support__call-center, .support__wrap-item .support__email, .support__wrap-item .support__email-title, .support__wrap-item .support__hotline {
+    position: absolute;
+}
+.support__wrap-item .support__call-center, .support__wrap-item .support__email {
+    bottom: 10px;
+}
+.support__wrap-item {
+    width: calc(50% - 12px);
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+    background-color: #fff;
+    position: relative;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #42236a;
+}
+/*End support */
+
+@media screen and (max-width: 576px) {
+    /*support */
+    .support {
+        display: block;
+    }
+    .support__wrap-item {
+        width: 100%;
+    }
+    .support .first-item {
+        margin-bottom: 20px;
+    }
+    .support__wrap-item {
+        width: 100%;
+    }
+    /*End support */
+}
+

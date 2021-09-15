@@ -1,0 +1,64 @@
+
+/*Inquiry general financial overview*/
+.overview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.overview-item {
+    background-color: #fff;
+    display: flex;
+    width: calc(50% - 15px);
+    max-width: 50%;
+    padding: 15px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    min-height: 90px;
+}
+.overview-item img {
+    width: 40px;
+    height: 40px;
+    margin: auto 15px auto 0;
+}
+.overview-item-info {
+    display: flex;
+    flex-direction: column;
+}
+.overview-item-info .lable {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ad8ad8;
+}
+.overview-item-info .amount {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #42236a;
+}
+
+.overview-item img {
+    width: 40px;
+    height: 40px;
+    margin: auto 15px auto 0;
+}
+
+/*End Inquiry general financial overview*/
+
+
+@media screen and (max-width: 576px) {
+    /*Inquiry geneneral financial overview responsive */
+    .overview-item {
+        width: 100%;
+        max-width: 100%;
+    }
+    .overview-item {
+        width: 100%;
+        max-width: 100%;
+    }
+    .overview-item {
+        width: 100%;
+        max-width: 100%;
+    }
+    /*End Inquiry geneneral financial overview responsive */
+}

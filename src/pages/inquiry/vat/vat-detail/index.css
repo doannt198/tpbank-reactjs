@@ -1,0 +1,250 @@
+
+
+/*Inquiry vat detail*/
+.acc-selector-on-header {
+    float: left;
+}
+.show-header-button .button-right-header {
+    position: absolute;
+    top: -55px;
+    right: 0;
+    color: #ff9800;
+    font-size: 16px;
+    z-index: 99;
+    width: 100%;
+}
+.acc-selector-on-header .button-right-header .content {
+    justify-content: start!important;
+    max-width: 250px!important;
+}
+
+.acc-selected {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #42236a;
+}
+
+.list-account {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 5px;
+    max-height: 240px;
+    min-width: 240px;
+    overflow: auto;
+    padding: 0 12px;
+}
+
+.list-account-item {
+    display: flex;
+    padding-bottom: 12px;
+    margin-top: 12px;
+    border-bottom: 1px solid #e0e4e9;
+}
+.list-account-item .icon-select {
+    margin-right: 10px;
+    width: 16px;
+}
+.list-account-item .icon-select i {
+    height: 16px;
+}
+.list-account-item .info {
+    display: flex;
+    flex-direction: column;
+}
+.list-account-item .info .account-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #42236a;
+}
+.list-account-item .info .account-number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ad8ad8;
+}
+.transaction-search {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 0;
+    width: 496px;
+    margin: auto;
+}
+.transaction-search .search-input {
+    padding: 0 20px;
+    position: relative;
+}
+.transaction-search .search-input input[type=text] {
+    border: 1px solid #e2d8ee;
+    height: 40px;
+    background-image: url(https://ebank.tpb.vn/retail/vX/search_normal.3841bb54b2df9a8bde6c.svg);
+    background-position: 9px 13px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.transaction-search .action-search-filter {
+    padding: 0 20px;
+    height: 36px;
+    display: inline-flex;
+    margin: 16px 0;
+}
+.transaction-search .action-search-filter-label {
+    width: 55px;
+    padding: 8px 0;
+}
+.transaction-search .action-search-filter-label span {
+    font-size: 12px;
+    line-height: 18px;
+    color: #ad8ad8;
+}
+.inquiry-date-range-wrapper{
+    position: relative;
+}
+.open-options-btn {
+    display: flex;
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 36px;
+    border-radius: 100px;
+    background: #fcfcfc;
+    border: 1px solid #f38598;
+    text-align: center;
+    line-height: 36px;
+    padding: 0 12px;
+    cursor: pointer;
+    text-transform: capitalize;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.open-options-btn i {
+    width: 15px;
+    height: 15px;
+    color: #f38598;
+    margin-right: 5px;
+}
+.open-options-btn span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.inquiry-calendar-date-selection {
+    position: absolute;
+    z-index: 1;
+    width: 372px;
+    background-color: #fff;
+    box-shadow: 0 4px 24px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    margin-top: 5px;
+    top: 100%;
+    right: 0;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.tpb-date-picker2 {
+    position: relative;
+    background-color: #fcfcfc;
+}
+.form-control-default {
+    height: 44px;
+    border: 1px solid #E2D8EE;
+}
+.tpb-date-picker2 input {
+    transition: none;
+}
+.tpb-date-picker2 i.fa-calendar {
+    position: absolute;
+    font-size: 23px;
+    right: 13px;
+    top: 10px;
+    cursor: pointer;
+    color: #ff9800;
+}
+.txtHiddenInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+}
+.tpb-date-picker2 input {
+    transition: none;
+}
+
+.transaction-search .result-search {
+    padding: 9px 20px 8px;
+    height: 39px;
+    border-top: 1px solid #e6e9ee;
+    border-bottom: 1px solid #e6e9ee;
+}
+.transaction-search .result-search span {
+    color: #ad8ad8;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+.transaction-search .content-transaction {
+    min-height: 250px;
+}
+.transaction-search .content-transaction .list-transaction {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.transaction-search .content-transaction .data-not-found {
+    text-align: center;
+    margin-top: 150px;
+}
+.transaction-search .content-transaction .data-not-found .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ad8ad8;
+    margin-bottom: 8px;
+}
+
+.select-option-date {
+    position: absolute;
+    min-width: 165px;
+    background-color: #fff;
+    box-shadow: 0 4px 24px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 16px 8px 0;
+    z-index: 1;
+    margin-top: 5px;
+}
+.select-option-date .value-option {
+    margin-bottom: 5px;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    padding: 0 12px;
+}
+
+.select-option-date .value-option.selected {
+    border-radius: 100px;
+    background-color: #ad8ad8;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+/*End Inquiry vat detail*/

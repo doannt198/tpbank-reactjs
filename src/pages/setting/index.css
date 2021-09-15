@@ -1,0 +1,261 @@
+
+/*Setting */
+.setting__wrap-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.setting__card-setting {
+    width: calc(50% - 15px);
+    max-width: 50%;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.card-setting-container {
+    display: flex;
+    width: 100%;
+    min-width: 230px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 65px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 20px 0 15px;
+    border: 1px solid transparent;
+    color: #42236a;
+    font-size: 16px;
+}
+.card-setting-container img {
+    width: 30px;
+    height: 30px;
+}
+.card-setting-container__content {
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    flex: 1;
+}
+.setting__wrap-card .card-setting-container__content .wrap-update-account {
+    flex-wrap: wrap;
+}
+.setting__wrap-card .card-setting-container__content .title-card {
+    font-weight: 500;
+}
+.card-setting-container__icon-right {
+    color: #ff9800;
+}
+.setting__part-title {
+    font-size: 16px;
+    color: #ad8ad8;
+}
+.setting__wrap-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.setting__card-setting {
+    width: calc(50% - 15px);
+    max-width: 50%;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.card-setting-container {
+    display: flex;
+    width: 100%;
+    min-width: 230px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 65px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 20px 0 15px;
+    border: 1px solid transparent;
+    color: #42236a;
+    font-size: 16px;
+}
+.card-setting-container img {
+    width: 30px;
+    height: 30px;
+}
+.card-setting-container__content {
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    flex: 1;
+}
+.setting__wrap-card .card-setting-container__content .title-card {
+    font-weight: 500;
+}
+.card-setting-container__icon-right {
+    color: #ff9800;
+}
+.setting__part-title {
+    font-size: 16px;
+    color: #ad8ad8;
+}
+.setting__card-setting {
+    width: calc(50% - 15px);
+    max-width: 50%;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.setting .setting__card-setting-style-1 {
+    cursor: default;
+}
+
+.card-setting-container__content {
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    flex: 1;
+}
+.setting .setting__card-setting-style-1 .setting__wrap-lanuage {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.setting__wrap-card .card-setting-container__content .title-card {
+    font-weight: 500;
+}
+
+.setting .setting__card-setting-style-1 .setting__wrap-lanuage .setting__language-title {
+    white-space: nowrap;
+}
+.setting .setting__card-setting-style-1 .setting__wrap-lanuage .setting__language-item {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.setting .setting__card-setting-style-1 .setting__wrap-lanuage .setting__language-item span {
+    margin-right: 10px;
+}
+.wrap-input-radio {
+    top: -4px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type=radio], input[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.wrap-input-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.wrap-input-radio .new-radio-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #c5ccd6;
+}
+.wrap-input-radio input:checked ~ .new-radio-button {
+    background-color: #ff9800;
+    border: 1px solid transparent;
+}
+.setting .setting__card-setting-style-1 .setting__wrap-lanuage .setting__language-item span {
+    margin-right: 10px;
+}
+.new-radio-button:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.wrap-input-radio .radio-checked:after {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+}
+.wrap-input-radio input:checked ~ .new-radio-button:after {
+    display: block;
+}
+.setting .setting__card-setting-style-1 .setting__wrap-lanuage .setting__language-item {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.setting .setting__card-setting-style-1 .setting__wrap-lanuage .setting__language-item span {
+    margin-right: 10px;
+}
+.wrap-input-radio {
+    top: -4px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type=radio], input[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.wrap-input-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.wrap-input-radio .new-radio-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #c5ccd6;
+}
+.setting .setting__card-setting-style-1 .setting__wrap-lanuage .setting__language-item span {
+    margin-right: 10px;
+}
+/*End setting*/
+
+@media screen and (max-width: 576px) {
+    /*Setting */
+    .setting__wrap-card {
+        display: block;
+    }
+    .setting__card-setting {
+        margin: 15px;
+        width: calc(100% - 15px);
+        max-width: 100%;
+    }
+    .setting__wrap-card {
+        display: block;
+    }
+    .setting__card-setting {
+        margin: 15px;
+    }
+    .setting__card-setting {
+        margin: 15px;
+    }
+    
+    /*End Setting */
+}
+

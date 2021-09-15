@@ -1,0 +1,597 @@
+
+/*Loyalty*/
+.show-header-button {
+    position: relative;
+}
+
+.show-header-button .button-right-header {
+    position: absolute;
+    top: -55px;
+    right: 0;
+    color: #ff9800;
+    font-size: 16px;
+    z-index: 99;
+    width: 100%;
+}
+.show-header-button .button-right-header .content {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+.loyalty .txt-rule {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ff9800;
+}
+.loyalty .icon-rule {
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.loyalty .point-info {
+    width: 496px;
+    position: relative;
+    margin: auto;
+}
+.point-card {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+.point-card .point-detail {
+    width: 80%;
+    padding: 24px 25px;
+    text-align: left;
+}
+.point-card .point-detail .title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: #42236a;
+}
+.point-card .point-detail .point {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-top: 5px;
+    color: #42236a;
+}
+.point-card .point-detail .expired_point {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    margin-top: 5px;
+    color: #ad8ad8;
+}
+.point-card .point-image {
+    width: 25%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.point-card .point-image .avatar {
+    display: inline-block;
+}
+.point-card .point-image .rank {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 15px;
+    color: #ff9800;
+}
+.loyalty .gift-info {
+    position: relative;
+    margin-top: 24px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #fff;
+    justify-content: center;
+}
+.loyalty .gift-info .tab-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    border-bottom: 1px solid rgba(105,105,105,.14);
+}
+.loyalty .gift-info .tab-section .nav-tab-button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding-bottom: 21px;
+    color: #c5ccd6;
+    outline: 0;
+    width: 50%;
+}
+.loyalty .gift-info .tab-section .nav-tab-button.search {
+    text-align: right;
+}
+.loyalty .gift-info .tab-section .nav-tab-button.search span {
+    padding: 0 54px 20px;
+}
+.loyalty .gift-info .tab-section .nav-tab-button.active span {
+    width: 100%;
+    border-bottom: 2px solid #7b35bb;
+    color: #42236a;
+    font-weight: 500;
+}
+.loyalty .gift-info .tab-section .nav-tab-button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding-bottom: 21px;
+    color: #c5ccd6;
+    outline: 0;
+    width: 50%;
+}
+.loyalty .gift-info .tab-section .nav-tab-button.detail {
+    text-align: left;
+}
+.loyalty .gift-info .tab-section .nav-tab-button.detail span {
+    padding: 0 70px 20px;
+}
+.list-gift-card {
+    width: 100%;
+    margin: auto;
+}
+.list-gift-card .category-section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-bottom: 1px solid rgba(105,105,105,.14);
+}
+.list-gift-card .category-section .option {
+    display: flex;
+    border-radius: 5px;
+    height: 48px;
+    background-color: #f6f6fe;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #42236a;
+    margin: 10px;
+    padding: 14px 8px;
+    border: 1px solid #e6e9ee;
+}
+.list-gift-card .category-section .active {
+    background-color: #ff9800;
+    border: 1px solid #e6e9ee;
+    color: #fff;
+    border-radius: 5px;
+}
+.list-gift-card .category-section .option .selection-card-image {
+    margin-right: 8px;
+}
+.list-gift-card .category-section .option .selection-card-image .img-default {
+    display: block;
+}
+.list-gift-card .category-section .option .selection-card-image .img-hide {
+    display: none;
+}
+
+.list-gift-card .filter-section .total_item {
+    margin: auto;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #42236a;
+}
+.list-gift-card .filter-section .total_item span {
+    font-size: 16px;
+    font-weight: 500;
+}
+.list-gift-card .filter-section .select-dropdown {
+    display: flex;
+    justify-content: flex-end;
+}
+.list-gift-card .filter-section .select-dropdown .filter-point {
+    margin-right: 16px;
+}
+
+.list-gift-card .filter-section {
+    display: flex;
+    margin-top: 14px;
+    padding-bottom: 20px;
+}
+.select-container {
+    margin: 0 auto;
+}
+.select-container {
+    width: 100%;
+    max-width: 35rem;
+    position: relative;
+}
+.list-gift-card .filter-section .select-dropdown .select-container {
+    width: 200px;
+    max-width: none;
+    min-width: unset;
+}
+.list-gift-card .filter-section .select-dropdown .select-container {
+    width: 200px;
+    max-width: none;
+    min-width: unset;
+}
+.select-container__wrap-top {
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #e2d8ee;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcfcfc;
+}
+.list-gift-card .filter-section .select-dropdown .select-container .select-container__wrap-top {
+    justify-content: center;
+    background-color: #f6f6fe;
+}
+.select-container__wrap-top .select-container__item-selected {
+    padding: 15px;
+    font-weight: 500;
+}
+.list-gift-card .filter-section .select-dropdown .select-container .select-container__wrap-top .select-container__item-selected {
+    font-weight: 400;
+}
+.select-container__wrap-top .select-container__icon {
+    margin-right: 16px;
+    transition: all .2s;
+    transform: rotate(90deg);
+}
+
+.select-container__wrap-items {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    transition: max-height .2s;
+    overflow-y: auto;
+    max-height: 15rem;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+}
+.select-container__wrap-items--height {
+    max-height: 0;
+    transition: max-height .2s;
+}
+
+.select-container .select-container__select-option {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+.select-container__wrap-items .select-container__select-option {
+    height: 45px;
+    border-bottom: 1px solid #f2f4f6;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.select-container .select-container__select-option {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+.select-container__wrap-items .select-container__select-option {
+    height: 45px;
+    border-bottom: 1px solid #f2f4f6;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.select-container__wrap-items .select-container__select-option:last-child {
+    border: none;
+}
+.list-gift-card .filter-section .select-dropdown .sort-point {
+    margin-right: 15px;
+}
+.select-container {
+    margin: 0 auto;
+}
+.select-container {
+    width: 100%;
+    max-width: 35rem;
+    position: relative;
+}
+.list-gift-card .filter-section .select-dropdown .select-container {
+    width: 200px;
+    max-width: none;
+    min-width: unset;
+}
+.select-container__wrap-top {
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #e2d8ee;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcfcfc;
+}
+.list-gift-card .filter-section .select-dropdown .select-container .select-container__wrap-top {
+    justify-content: center;
+    background-color: #f6f6fe;
+}
+.select-container__wrap-top .select-container__item-selected {
+    padding: 15px;
+    font-weight: 500;
+}
+.list-gift-card .filter-section .select-dropdown .select-container .select-container__wrap-top .select-container__item-selected {
+    font-weight: 400;
+}
+.select-container__wrap-top .select-container__icon {
+    margin-right: 16px;
+    transition: all .2s;
+    transform: rotate(
+90deg
+);
+}
+.select-container__wrap-items {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    transition: max-height .2s;
+    overflow-y: auto;
+    max-height: 15rem;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+}
+.select-container__wrap-items--height {
+    max-height: 0;
+    transition: max-height .2s;
+}
+.select-container__wrap-items .select-container__select-option {
+    height: 45px;
+    border-bottom: 1px solid #f2f4f6;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.select-container__wrap-items .select-container__select-option {
+    height: 45px;
+    border-bottom: 1px solid #f2f4f6;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.select-container__wrap-items .select-container__select-option:last-child {
+    border: none;
+}
+
+.list-gift-card .list-gift-section {
+    margin-right: 0;
+    margin-left: 0;
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+.list-gift-card .list-gift-section .gift-card {
+    border-right: 1px solid rgba(105,105,105,.14);
+    outline: 0;
+    padding: 0 15px;
+}
+
+.list-gift-card .gift-info {
+    display: flex;
+}
+
+.gift-info .gift-image img {
+    width: 90px;
+}
+
+.gift-info .gift-detail {
+    margin-left: 15px;
+    width: 100%;
+}
+.gift-info .gift-detail .title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.54;
+    color: #42236a;
+    margin-bottom: 4px;
+}
+
+.gift-info .gift-detail .partner {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: #ad8ad8;
+    margin-bottom: 4px;
+}
+
+.gift-info .gift-detail .wrap-button {
+    display: flex;
+}
+.gift-info .gift-detail .wrap-button .point {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.57;
+    color: #42236a;
+}
+.gift-info .gift-detail .wrap-button .point .point-txt {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.gift-info .gift-detail .wrap-button .exchange-gift {
+    line-height: normal;
+    text-align: right;
+    margin: 0 0 0 auto;
+}
+
+.gift-info .gift-detail .wrap-button .exchange-gift .text-link-size {
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+
+.gift-info .gift-detail .wrap-button .exchange-gift .common-image {
+    height: 20px;
+    width: 20px;
+}
+
+.list-gift-card .list-gift-section div:nth-child(even) {
+    border-right: none;
+}
+
+.list-gift-card .list-gift-section .gift-card {
+    border-right: 1px solid rgba(105,105,105,.14);
+    outline: 0;
+    padding: 0 15px;
+}
+
+.list-gift-card .list-gift-section .gift-card .gift-card-border {
+    height: 1px;
+    background-color: #e1e3e8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: .55;
+}
+
+
+
+
+
+@media only screen and (max-width: 1129px) {
+    .show-header-button .button-right-header {
+        top: -32px;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    /*Loyalty*/
+    .show-header-button .button-right-header {
+        margin-right: 32px;
+    }
+    .show-header-button .button-right-header .content {
+        width: 100%;
+        max-width: unset;
+    }
+    /*End loyalty*/
+}
+@media screen and (max-width: 575px) {
+   /*Loyalty*/
+   .show-header-button {
+        padding-top: 24px;
+    }
+    .show-header-button .button-right-header {
+        margin-left: 32px;
+        margin-right: 0;
+        top: -16px;
+    }
+    .show-header-button .button-right-header .content {
+        width: 100%;
+        max-width: unset;
+        justify-content: flex-start;
+        padding-bottom: 16px;
+        background: #ebebfa;
+    }
+    .loyalty .point-info {
+        width: 100%;
+    }
+    .loyalty .point-info {
+        width: 496px;
+        position: relative;
+        margin: auto;
+    }
+    .loyalty .gift-info .tab-section .nav-tab-button.search {
+        text-align: center;
+    }
+    .loyalty .gift-info .tab-section .nav-tab-button.search span {
+        padding: 0 10px 20px;
+    }
+    .loyalty .gift-info .tab-section .nav-tab-button.detail {
+        text-align: center;
+    }
+    .loyalty .gift-info .tab-section .nav-tab-button.detail span {
+        padding: 0 26px 20px;
+    }
+    .list-gift-card .category-section {
+        justify-content: unset;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 14px;
+        overflow: scroll;
+        border-bottom: none;
+    }
+    .list-gift-card .category-section .selection-card-image .img-default {
+        display: block!important;
+    }
+    .list-gift-card .category-section .selection-card-image .img-hide {
+        display: none!important;
+    }
+    .list-gift-card .category-section .selection-card-title {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+    }
+    .list-gift-card .filter-section {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+    .list-gift-card .filter-section .total_item {
+        margin-bottom: 10px;
+    }
+    .list-gift-card .filter-section .select-dropdown {
+        display: block;
+    }
+    .list-gift-card .filter-section .select-dropdown .filter-point {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .list-gift-card .filter-section .select-dropdown .select-container {
+        width: 100%;
+    }
+
+    .select-container__select-option {
+        font-size: 13px!important;
+    }
+    .list-gift-card .filter-section .select-dropdown .sort-point {
+        margin-right: 0;
+    }
+    .list-gift-card .filter-section .select-dropdown .select-container {
+        width: 100%;
+    }
+    .list-gift-card .list-gift-section .gift-card {
+        border-right: none;
+    }
+    .list-gift-card .list-gift-section .gift-card {
+        border-right: none;
+    }
+   /*End loyalty*/
+}

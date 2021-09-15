@@ -1,0 +1,78 @@
+
+/*Change card pin */
+.select-acc-item {
+    border: 1px solid #ad8ad8;
+}
+.select-acc-item .cardNo {
+    font-size: 20px;
+}
+.pin-input {
+    position: relative;
+    left: 38px;
+    max-width: 422px;
+    font-weight: 500;
+    color: #ad8ad8;
+}
+.password-container {
+    position: relative;
+}
+.input-password {
+    padding-right: 40px;
+}
+.content-container-2 {
+    margin: 0px auto;
+    max-width: 496px;
+}
+.form-control {
+    padding: 13px 16px;
+    height: 48px;
+}
+.password-container img {
+    display: none;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 12px;
+    right: 15px;
+    cursor: pointer;
+}
+.password-container img.show-password {
+    display: block;
+}
+.password-container img {
+    display: none;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 12px;
+    right: 15px;
+    cursor: pointer;
+}
+.my-tooltip {
+    position: relative;
+}
+.my-tooltip .tooltip-text {
+    position: absolute;
+    visibility: hidden;
+    font-size: 13px;
+    width: 279px;
+    white-space: pre-wrap;
+    background-color: #42236a;
+    color: #e6e6e6;
+    text-align: left;
+    left: -29px;
+    border-radius: 4px;
+    top: 20px;
+    z-index: 1;
+    padding: 15px;
+    transition: .4s;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 10%);
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.input-password {
+    padding-right: 40px;
+}
+/*End change card pin*/
+

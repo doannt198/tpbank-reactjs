@@ -1,0 +1,171 @@
+
+/* Inquiry general person info*/
+.personal-info {
+    max-width: 496px;
+    margin: auto;
+}
+.personal-info-completed .title {
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.personal-info-completed .upgrade-account-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+.personal-info-completed .upgrade-account-info .txt-item-upgrade {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ad8ad8;
+    margin-bottom: 12px;
+}
+.personal-info-completed .upgrade-account-info .icon-check-upgrade {
+    color: #ff9800;
+}
+
+.customer {
+    margin-top: 20px;
+    min-height: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.customer-left {
+    min-height: 200px;
+    width: 50%;
+    border-right: 1px solid #e1e3e8;
+}
+.customer-left-item {
+    padding: 0 20px;
+}
+.customer-left .user-name {
+    border-top-left-radius: 5px;
+}
+.customer-left-item-content {
+    border-bottom: 1px solid #e1e3e8;
+    padding: 20px 0;
+}
+.customer .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.customer .txt-label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ad8ad8;
+}
+.customer .txt-action {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ff9800;
+    cursor: pointer;
+}
+.customer-left-item {
+    padding: 0 20px;
+}
+.customer-left-item-content {
+    border-bottom: 1px solid #e1e3e8;
+    padding: 20px 0;
+}
+.customer .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.customer .txt-label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ad8ad8;
+}
+.customer .txt-value {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #42236a;
+    margin-bottom: 8px;
+}
+.customer-left-item {
+    padding: 0 20px;
+}
+.customer-right {
+    min-height: 200px;
+    width: 50%;
+    border-left: 1px solid #e1e3e8;
+}
+.customer-right-item-provider {
+    display: flex;
+    justify-content: space-between;
+}
+.customer-right-item-provider .item-left {
+    width: 50%;
+    height: 114px;
+    padding-left: 20px;
+}
+.customer-right-item-provider .item-left .date-provide {
+    height: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e3e8;
+}
+.customer-right-item-provider .item-right {
+    height: 114px;
+    width: 50%;
+    padding-right: 20px;
+}
+.customer-right-item {
+    padding: 0 20px;
+}
+.customer-left-item-content {
+    border-bottom: 1px solid #e1e3e8;
+    padding: 20px 0;
+}
+.customer .txt-action {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ff9800;
+    cursor: pointer;
+}
+.customer-right-item-provider .item-right .place-provide {
+    height: 100%;
+    padding: 20px 5px;
+    border-bottom: 1px solid #e1e3e8;
+}
+/* End Inquiry general person info*/
+
+
+
+@media screen and (max-width: 576px) {
+    /*Inquiry General Person info */
+    .customer-left, .customer-right {
+        width: 100%;
+    }
+    .customer-right-item-provider {
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-right-item-provider .item-left {
+        width: 100%;
+        border-top: 1px solid #e1e3e8;
+    }
+    .customer-right-item-provider .item-right {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .customer-right-item-provider .item-right .place-provide {
+        padding: 20px 0;
+    }
+    /*End Inquiry General Person info */
+}

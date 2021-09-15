@@ -1,0 +1,59 @@
+
+/*Inquiry vat*/
+.vat-home {
+    width: 496px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.vat-home .title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.vat-home .card-acc-info {
+    background-color: #fff;
+    min-height: 131px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.vat-home .card-acc-info .acc-name, .vat-home .card-acc-info .acc-number {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.vat-home .card-acc-info .acc-name {
+    margin-bottom: 5px;
+}
+.vat-home .card-acc-info .acc-name, .vat-home .card-acc-info .acc-number {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.vat-home .card-acc-info .acc-number {
+    margin-bottom: 10px;
+}
+.vat-home .card-acc-info .acc-item {
+    display: flex;
+    justify-content: space-between;
+}
+.vat-home .card-acc-info .acc-item .amount {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+.vat-home .card-acc-info .acc-item .action {
+    color: #ff9800;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    outline: 0;
+}
+/*End Inquiry vat*/
+
+

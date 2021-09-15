@@ -1,0 +1,18 @@
+
+/*setting upgrade */
+.introduce {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.introduce__wrap {
+    width: 450px;
+    font-size: 16px;
+    flex-direction: column;
+    display: flex;
+    line-height: 1.63;
+    text-align: justify;
+}
+/*End setting upgrade */
+
+

@@ -1,0 +1,125 @@
+
+/*Ewallet */
+.ewallet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ewallet-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc(50% - 15px);
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+.ewallet-item-info {
+    width: 100%;
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+.ewallet-item-info img {
+    width: 70px;
+    height: 70px;
+    margin: auto 11px auto 0;
+    border-radius: 50%;
+}
+.ewallet-item-info-user {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ewallet .txt-16 {
+    font-size: 16px;
+}
+.ewallet .txt-bold {
+    font-weight: 500;
+}
+.ewallet .txt-color-normal {
+    color: #42236a;
+}
+.ewallet-item-info-user .action-expand {
+    display: flex;
+    justify-content: space-between;
+}
+.ewallet .txt-14 {
+    font-size: 14px;
+}
+.ewallet .txt-bold {
+    font-weight: 500;
+}
+.ewallet .txt-color-normal {
+    color: #42236a;
+}
+.ewallet .txt-color-action {
+    color: #ff9800;
+    cursor: pointer;
+}
+
+.ewallet-item-detail {
+    width: 100%;
+    background-color: #fff;
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ewallet .hide-info {
+    max-height: 0;
+    overflow: hidden;
+    margin: 0!important;
+    padding: unset!important;
+    border-top: unset!important;
+}
+.ewallet .show-info {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+}
+.ewallet-item-detail-account {
+    width: 100%;
+    border-bottom: 1px solid #e6e9ee;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+.ewallet-item-detail .row-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+.ewallet .txt-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ad8ad8;
+}
+.ewallet .txt-16 {
+    font-size: 16px;
+}
+.ewallet .txt-bold {
+    font-weight: 500;
+}
+.ewallet .txt-color-normal {
+    color: #42236a;
+}
+.ewallet-item-detail-limit {
+    width: 100%;
+}
+.ewallet-item-detail .row-item-amount {
+    display: flex;
+    flex-direction: column;
+}
+
+/*End Ewallet*/
+
+@media screen and (max-width: 576px) {
+    /*Ewallet */
+    .ewallet-item {
+       width: 100%;
+       max-width: 100%;
+   }
+    /*End Ewallet */
+   }

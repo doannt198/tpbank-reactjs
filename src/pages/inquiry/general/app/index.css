@@ -1,0 +1,56 @@
+
+/*app*/
+.application {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.application-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 12px);
+    max-width: 182px;
+    height: 164px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 16px;
+    margin-right: 18px;
+    margin-bottom: 16px;
+}
+
+.application-item img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.application-item span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #42236a;
+    margin: auto;
+}
+/*end app*/
+
+
+@media only screen and (max-width: 767px) {
+    /*app*/
+    .application-item {
+        width: calc(50% - 8px);
+        max-width: 172px;
+        margin-right: 12px;
+    }
+    /*end app*/
+}
+
+@media screen and (max-width: 576px) {
+    /*app*/
+    .application-item{
+        width: calc(50% - 8px);
+        max-width: 182px;
+        margin-right: 5px;
+    }
+    /*End app*/
+}

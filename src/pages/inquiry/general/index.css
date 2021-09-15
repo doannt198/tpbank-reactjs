@@ -1,0 +1,77 @@
+
+/*Inquiry General*/
+input[type=text] {
+    border: 1px solid #e2d8ee;
+    height: 54px;
+    background-image: url(https://ebank.tpb.vn/retail/vX/search_normal.3841bb54b2df9a8bde6c.svg);
+    background-position: 9px 19px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    width: calc(50% - 15px);
+}
+.content-card-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content-card-link-item {
+    width: calc(50% - 15px);
+    max-width: 50%;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.content-card-link-item-container {
+    min-height: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 20px 0 15px;
+    border: 1px solid transparent;
+    color: #42236a;
+    font-size: 16px;
+}
+.content-card-link-item-container img {
+    width: 30px;
+    height: 30px;
+}
+.content-card-link-item-container span {
+    display: flex;
+    flex: 1;
+    margin-left: 16px;
+}
+.content-card-link-item-container i {
+    color: #ff9800;
+}
+.content-card-link-item {
+    width: calc(50% - 15px);
+    max-width: 50%;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+/*End inquiry general */
+
+@media screen and (max-width: 576px) {
+    /*Inquiry general */
+    .content-card-link-item {
+          width: 100%;
+          max-width: 100%;
+      }
+    /*End inquiry general*/
+  }
+  
+  @media screen and (max-width: 575px) {
+     /*Inquiry genreal*/
+      input[type=text] {
+          width: 100%;
+      }
+      .content-card-link-item {
+          width: 100%;
+          max-width: 100%;
+      }
+     /*End inquiry general*/
+  }
+  

@@ -1,0 +1,214 @@
+
+/*Mobile*/
+
+.debit-acc-selector {
+    padding: 12px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+.label-color {
+    color: #AD8AD8;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.wrap-content {
+    max-width: 496px;
+    margin: auto;
+}
+
+form .content-input, form .content-provider {
+    position: relative;
+}
+form .input-content {
+    margin: 16px auto 0;
+    padding: 0;
+}
+
+form .content-input {
+    cursor: pointer;
+}
+
+form .content-input, form .content-provider {
+    position: relative;
+}
+
+form .content-input .input-provider, form .content-provider .input-provider {
+    pointer-events: none;
+}
+
+form .input-text {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #e2d8ee;
+    background-color: #fcfcfc;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    outline: 0;
+    padding: 15px 0 15px 15px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+input, textarea {
+    color: #42236a;
+    font-size: 14px;
+}
+
+form .icon-arrow-up {
+    transform: rotate(-90deg);
+    transition: all .2s;
+}
+form .icon-arrow-down {
+    background-image: url(https://ebank.tpb.vn/retail/vX/chevron-right-solid.1b15a896fc37da4a8955.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    transform: rotate(90deg);
+    transition: all .2s;
+    position: absolute;
+    right: 16px;
+    bottom: 14px;
+}
+
+.list-provider {
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+    background-color: #fff;
+    list-style-type: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding: 0;
+    overflow-y: auto;
+    transition: max-height .2s;
+    max-height: 19em;
+}
+
+.height-transition {
+    max-height: 0;
+    transition: max-height .2s;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.list-provider li {
+    padding: 15px;
+    border-bottom: 1px solid #f2f4f6;
+}
+
+.list-provider li span {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: #42236a;
+}
+
+.list-face-value {
+    margin: 16px auto 0;
+    padding: 0;
+}
+
+.list-face-value .list-value {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+}
+.list-face-value .list-value .card-value:hover {
+    background-color: #ff9800;
+    border: 1px solid #e6e9ee;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.list-face-value .list-value .card-value {
+    width: 32.2%;
+    height: 48px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e2d8ee;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-transaction .recent-transactions {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #ad8ad8;
+    margin: 35px 0 15px;
+}
+
+.history-transaction .line {
+    width: 100%;
+    height: 1px;
+    border-radius: .5px;
+    background-color: #e6e9ee;
+}
+
+.history-transaction .list-recent-transaction {
+    margin-top: 25px;
+}
+
+.history-transaction .list-recent-transaction .list-card-link {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 1129px) {
+    /*Mobile*/
+        .history-transaction .list-recent-transaction .list-card-link {
+        margin: 0;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    /*Mobile */
+     .history-transaction .list-recent-transaction .list-card-link {
+        margin: 0;
+        display: block;
+    }
+    /*End Mobile */
+}
+
+
+@media screen and (max-width: 575px) {
+   /*Mobile*/
+   .btn-action .btn-next {
+    width: 100%;
+    }
+
+    .history-transaction .list-recent-transaction .list-card-link {
+        margin: 0;
+        display: block;
+    }
+}

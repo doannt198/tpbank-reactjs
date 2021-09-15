@@ -1,0 +1,39 @@
+
+/*____Swipper_____*/
+
+.acc-slider-slide {
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+    background-color: #fff;
+}
+
+.acc-slider-card {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #42236a;
+    padding: 20px;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: url(../../common/images/main/download_prev.svg);
+    left: 10px;
+    right: auto;
+}
+
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    background-image: url(../../common/images/main/download.svg);
+    right: 10px;
+    left: auto;
+}
+
+.acc-slider-btn-prev {
+    left: 14%;
+    width: 44px;
+    background-image: url(../../common/images/main/left.efead1f8ba004b811b68.svg);
+    background-size: contain;
+    outline: 0;
+}

@@ -1,0 +1,84 @@
+
+/*Inquiry account */
+.tab-main {
+    width: 100%;
+    overflow: auto;
+}
+.tab-main .nav-tab {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.14);
+}
+.tab-main .nav-tab .nav-tab-button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #AD8AD8;
+    outline: none;
+    text-transform: capitalize;
+    padding: 0 24px 20px 24px;
+}
+.tab-main .nav-tab .nav-tab-button.active {
+    border-bottom: 2px solid #7b35bb;
+    color: #42236a;
+    font-weight: 500;
+}
+
+.account-list-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.account-list-content .account-card {
+    cursor: pointer;
+    margin-top: 24px;
+    min-width: 285px;
+    width: 48.5%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #42236a;
+}
+.account-list-content .account-card .account-card-left {
+    margin-right: 20px;
+}
+.account-list-content .account-card .account-card-right {
+    text-align: left;
+}
+.account-list-content .account-card .name {
+    font-weight: 500;
+}
+.account-list-content .account-card .money {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: .4em;
+}
+/*End Inquiry account */
+
+
+
+
+@media screen and (max-width: 576px) {
+  
+    /*Inquiry Account */
+    .account-list-content .account-card {
+        width: 100%;
+    }
+    /*End Inquiry Account */
+}
+
+
+@media screen and (max-width: 575px) {
+   /*Inquiry Account*/
+   .nav-tab {
+        width: max-content;
+        padding: 0;
+    }
+   /*End Inquiry Account */
+}

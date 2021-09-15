@@ -1,0 +1,64 @@
+
+/*Create Package*/
+.create-saving-package .select-package-type {
+    width: 496px;
+    margin: auto;
+}
+.create-saving-package .select-package-type .title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+.create-saving-package .select-package-type .card-select-package {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 16px 18px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.create-saving-package .select-package-type .card-select-package .icon-package {
+    margin-right: 16px;
+    align-self: center;
+}
+
+.create-saving-package .select-package-type .card-select-package .icon-package img {
+    width: 24px;
+    height: 24px;
+}
+
+.create-saving-package .select-package-type .card-select-package .package-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.create-saving-package .select-package-type .card-select-package .package-info .package-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.create-saving-package .select-package-type .card-select-package .package-info .package-period {
+    font-size: 12px;
+}
+
+.create-saving-package .select-package-type .card-select-package .package-info .txt-color-2 {
+    color: #ad8ad8;
+}
+
+.create-saving-package .select-package-type .card-select-package .package-info .package-interest-rate {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.create-saving-package .select-package-type .card-select-package .package-info .package-interest-rate .action {
+    color: #ff9800;
+    cursor: pointer;
+}
+/*End create package*/
+
+
+

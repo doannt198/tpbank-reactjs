@@ -1,0 +1,64 @@
+
+/*Edit saving name*/
+.edit-new-name {
+    width: 496px;
+    margin: 0 auto;
+}
+.edit-new-name .input-new-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.edit-new-name .input-new-name .title-action {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #42236a;
+    margin-bottom: 8px;
+}
+.edit-new-name .input-new-name .description-action {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #42236a;
+}
+.edit-new-name .input-new-name .txtNewName {
+    width: 100%;
+    margin: 20px 0 24px;
+}
+.edit-new-name .input-new-name .form-control {
+    text-overflow: ellipsis;
+}
+.form-control-default {
+    height: 44px;
+    border: 1px solid #E2D8EE;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.right-content {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    height: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.edit-new-name .input-new-name button {
+    width: 344px;
+}
+/*End edit saving name*/
+
+
+@media screen and (max-width: 575px) {
+    .edit-new-name {
+        width: 100%;
+    }
+    .edit-new-name button {
+        width: 100%!important;
+        margin: 0!important;
+    }
+}

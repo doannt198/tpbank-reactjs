@@ -1,0 +1,135 @@
+
+/*reffering*/
+.referring {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.referring__left {
+    max-width: 388px;
+    flex-grow: 1;
+}
+.left-center {
+    margin: 0 auto;
+    max-width: 496px;
+}
+.referring__left-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 5px;
+}
+.referring__left .referring__left-title {
+    font-size: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+.referring__left .referring__left-code {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e6e9ee;
+    background-color: #fcfcfc;
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: .3px;
+    word-break: break-all;
+    padding: 10px 19px;
+}
+.referring__left .referring__left-code span {
+    line-height: 24px;
+}
+.referring__left .referring__left-wrap-link {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.referring__left .referring__left-wrap-link > span {
+    margin: 0 20px;
+    color: #ff9800;
+    cursor: pointer;
+    font-size: 16px;
+}
+.hide {
+    display: none;
+}
+.referring__right {
+    max-width: 388px;
+    flex-grow: 1;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    margin-left: 24px;
+}
+.referring__right .referring__right-title {
+    height: 64px;
+    border-bottom: 1px solid #eff1f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+.referring__right .referring__right-title span {
+    font-size: 16px;
+}
+.referring__right .referring__right-wrap-content {
+    max-height: 570px;
+    overflow-y: auto;
+}
+.referral__noti {
+    width: 344px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #42236a;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 32px;
+    bottom: 32px;
+    opacity: 0;
+    z-index: -100;
+}
+.referral__noti-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .32px;
+    color: #fff;
+}
+.referral__noti-close {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+/*End reffering*/
+
+
+
+@media screen and (max-width: 575px) {
+    /*Reffering*/
+    .referring {
+         display: block;
+         width: 100%;
+     }
+     .referring__left {
+         max-width: unset!important;
+         width: 100%;
+         padding-right: 0;
+         margin: 0 auto 24px;
+     }
+     .referring__right {
+         max-width: 100%!important;
+         width: 100%;
+         margin-left: 0!important;
+     }
+    /*End Reffering*/
+ }
+ 

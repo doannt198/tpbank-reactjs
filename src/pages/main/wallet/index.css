@@ -1,0 +1,81 @@
+/*Wallet*/
+.tab-main {
+    margin-bottom: 32px;
+}
+
+.tab-main .nav-tab {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.14);
+}
+
+.tab-main .nav-tab .nav-tab-button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #AD8AD8;
+    outline: none;
+    text-transform: capitalize;
+    padding: 0 24px 20px 24px;
+}
+
+.tab-main .nav-tab .nav-tab-button.active {
+    border-bottom: 2px solid #7b35bb;
+    color: #42236a;
+    font-weight: 500;
+}
+.ewallet-home-content .my-wallet-list {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.ewallet-home-content .my-wallet-list .wallet-item {
+    display: flex;
+    max-width: 388px;
+    width: calc(50% - 12px);
+    min-height: 118px;
+    margin-bottom: 24px;
+    align-items: center;
+    border-radius: 5px;
+    background: #fff;
+    outline: 0;
+}
+
+.ewallet-home-content .my-wallet-list .wallet-item img {
+    width: 60px;
+    height: 60px;
+    margin: 0 16px 0 24px;
+    border-radius: 50%;
+}
+
+.ewallet-home-content .my-wallet-list .wallet-item .wallet-desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #42236a;
+}
+/*Wallet*/
+
+
+
+@media only screen and (max-width: 767px) {
+    /*Wallet*/
+    .ewallet-home-content .my-wallet-list .wallet-item {
+        max-width: unset;
+        width: 100%;
+    }
+    /*End wallet*/
+}
+
+
+@media screen and (max-width: 575px) {
+    /*Wallet Add Link*/
+    .select-container__select-option {
+         font-size: 13px!important;
+     }  
+     .ewallet-link-content .btn-next {
+         max-width: unset;
+     }
+      /*End Wallet Add Link*/
+ }
+ 

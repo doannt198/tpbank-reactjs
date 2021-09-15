@@ -1,0 +1,227 @@
+
+/*Inquiry general limit*/
+.limit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.limit-left {
+    width: calc(50% - 15px);
+    max-width: 50%;
+    margin: 16px 0;
+}
+.limit .limit-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ad8ad8;
+}
+.limit-left-topup-info, .limit-left-transfer-info {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 16px 0 30px;
+}
+.limit-left-topup-info-item, .limit-left-transfer-info-item {
+    padding: 0 20px;
+}
+.limit-left-topup-info-item .border-customize, .limit-left-transfer-info-item .border-customize {
+    border-bottom: 1px solid #e1e3e8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.limit-left-topup-info-item .border-customize span, .limit-left-transfer-info-item .border-customize span {
+    color: #42236a;
+}
+.limit-left-topup-info-item .border-customize .label, .limit-left-transfer-info-item .border-customize .label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 130px;
+}
+.limit-left-topup-info-item .border-customize .limit-info, .limit-left-topup-info-item .border-customize .topup-info, .limit-left-transfer-info-item .border-customize .limit-info, .limit-left-transfer-info-item .border-customize .topup-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.limit-left-topup-info-item .border-customize .limit-info span, .limit-left-topup-info-item .border-customize .topup-info span, .limit-left-transfer-info-item .border-customize .limit-info span, .limit-left-transfer-info-item .border-customize .topup-info span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.limit-left-topup-info-item, .limit-left-transfer-info-item {
+    padding: 0 20px;
+}
+.limit-left-topup-info-item .border-customize, .limit-left-transfer-info-item .border-customize {
+    border-bottom: 1px solid #e1e3e8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.limit .limit-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ad8ad8;
+}
+.limit-left-topup-info, .limit-left-transfer-info {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 16px 0 30px;
+}
+.limit-left-topup-info-item, .limit-left-transfer-info-item {
+    padding: 0 20px;
+}
+.limit-left-topup-info-item .border-customize, .limit-left-transfer-info-item .border-customize {
+    border-bottom: 1px solid #e1e3e8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.limit-left-topup-info-item .border-customize span, .limit-left-transfer-info-item .border-customize span {
+    color: #42236a;
+}
+.limit-left-topup-info-item .border-customize .label, .limit-left-transfer-info-item .border-customize .label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 130px;
+}
+.limit-left-topup-info-item .border-customize .limit-info, .limit-left-topup-info-item .border-customize .topup-info, .limit-left-transfer-info-item .border-customize .limit-info, .limit-left-transfer-info-item .border-customize .topup-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.limit-left-topup-info-item .border-customize span, .limit-left-transfer-info-item .border-customize span {
+    color: #42236a;
+}
+.limit-left-topup-info-item .border-customize .limit-info span, .limit-left-topup-info-item .border-customize .topup-info span, .limit-left-transfer-info-item .border-customize .limit-info span, .limit-left-transfer-info-item .border-customize .topup-info span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.limit-right {
+    width: calc(50% - 15px);
+    max-width: 50%;
+    margin: 16px 0;
+}
+.limit .limit-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ad8ad8;
+}
+.limit-right-napas-list .card-item {
+    max-width: 100%;
+    margin: 16px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.limit-right-napas-list .card-item-container {
+    cursor: pointer;
+    min-height: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 15px;
+    border: 1px solid transparent;
+    color: #42236a;
+    font-size: 16px;
+}
+.limit-right-napas-list .card-item-container img {
+    width: 30px;
+    height: 30px;
+}
+.limit-right-napas-list .card-item-container span {
+    display: flex;
+    flex: 1;
+    margin-left: 16px;
+}
+.limit-right-napas-list .card-item-container i {
+    color: #ff9800;
+}
+.limit-right-napas-list .card-item-detail {
+    border-top: 1px solid #e2d8ee;
+    padding: 15px;
+}
+.limit .hide-info {
+    max-height: 0;
+    overflow: hidden;
+    margin: 0!important;
+    padding: unset!important;
+    border-top: unset!important;
+}
+.limit .show-info {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+}
+.limit-right-napas-list .card-item-detail-info {
+    padding: 15px;
+    background-color: #f6f6fe;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.limit-right-napas-list .card-item-detail-info .card-no {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+.limit-right-napas-list .card-item-detail-info-limit {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.limit-right-napas-list .card-item-detail-info-limit-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.limit-right-napas-list .card-item-detail-info-limit .label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 125px;
+    color: #ad8ad8;
+}
+.limit-right-napas-list .card-item-detail-info-limit .limit-amount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.limit-right-napas-list .card-item-detail-info-limit .limit-amount span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #42236a;
+}
+.limit-right-napas-list .card-item-detail-info-limit .limit-amount span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #42236a;
+}
+/*End Inquiry general limit*/
+
+@media screen and (max-width: 576px) {
+    /*Inquiry general limit*/
+    .limit-left, .limit-right {
+         width: 100%;
+         max-width: 100%;
+     }
+     .limit-left, .limit-right {
+         width: 100%;
+         max-width: 100%;
+     }
+    /*End Inquiry general limit*/
+ }

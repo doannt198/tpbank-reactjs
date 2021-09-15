@@ -1,0 +1,128 @@
+
+/*Notification*/
+.notification-page {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 24px;
+    position: relative;
+}
+
+.tab-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    border-bottom: 1px solid #f3f5f6;
+}
+.tab-list .tab {
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+    flex-grow: 1;
+    flex-basis: 0;
+    cursor: pointer;
+}
+
+.tab-list .tab.active {
+    font-weight: 500;
+    color: #42236a;
+    border-bottom: 2px solid #7b35bb;
+    cursor: default;
+}
+
+.have-new-icon {
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: #ff3b30;
+    color: #fff;
+    width: auto;
+    padding: 2px 5px;
+    height: 10px;
+    position: relative;
+    left: 1px;
+    top: -10px;
+}
+
+.number {
+    border-radius: 100px;
+    height: auto;
+    top: -7px;
+    padding: 1px 3.5px;
+    min-width: 20px;
+}
+
+.list .item {
+    padding: 16px 16px 16px 0;
+    border-bottom: 1px solid #f3f5f6;
+    color: #42236a;
+    font-size: 16px;
+    position: relative;
+    font-weight: 500;
+}
+
+.list .item.read-noti {
+    font-weight: 400;
+    color: #c7b8d9;
+}
+
+.list .item .date {
+    color: #ad8ad8;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.list .item.read-noti .date {
+    color: #c7b8d9;
+}
+
+.list .item .btn-delete {
+    color: #ff3b30;
+    position: absolute;
+    bottom: 16px;
+    right: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-check-all {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    cursor: pointer;
+    width: 24px;
+    overflow: visible;
+    z-index: 5000;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.preview {
+    position: relative;
+}
+
+.lottieContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*End Notification*/
+
+

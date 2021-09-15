@@ -1,0 +1,103 @@
+.debit-acc-selector {
+    padding: 12px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.container-bill .container-list-provider .list-provider .list-card-link {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list-card-link .card-link-wrapper {
+    display: inline-block;
+    width: 33.33%;
+    max-width: 256px;
+}
+
+.container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper {
+    width: 48.8%;
+    margin-bottom: 23px;
+    padding: 0;
+    max-width: 100%;
+}
+
+.container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper .card-provider {
+    border-radius: 5px;
+    border: 1px solid #e6e9ee;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 9px 15px 15px;
+    cursor: pointer;
+    height: 72px;
+}
+
+.container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper .card-provider .content-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #42236a;
+}
+
+.container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper .card-provider .content-card .icon-logo {
+    min-width: 35px;
+    height: 50px;
+    margin-right: 12px;
+}
+
+.container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper .card-provider .content-name-provider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper .card-provider .content-name-provider .name-provider {
+    width: 90%;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #42236a;
+    text-transform: capitalize;
+}
+
+.container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper .card-provider .icon-arrow-right {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 18px;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 575px) {
+    /*Bill electrict*/
+    .list-card-link .card-link-wrapper {
+         max-width: none;
+     }
+ 
+    .container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper {
+         width: 100%;
+     }
+ 
+     .container-bill .container-list-provider .list-provider .list-card-link .card-link-wrapper .card-provider {
+         margin: 0;
+     }
+    /*End bill electrict*/
+ }

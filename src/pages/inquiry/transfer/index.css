@@ -1,0 +1,373 @@
+
+.transfer-container {
+    margin-top: 25px;
+}
+.button-header {
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+}
+.button-header-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    border-right: 1px solid #e6e9ee;
+    border-bottom: 1px solid #e6e9ee;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-right: .5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon.search-key {
+    background-image: url(https://ebank.tpb.vn/retail/vX/ic_search_inquiry.6f128af7fd462b7d5974.svg);
+}
+
+.icon.search-date {
+    background-image: url(https://ebank.tpb.vn/retail/vX/ic_calendar_inquiry.cc19ae06141434d2db4b.svg);
+}
+.icon.search-catalogue {
+    background-image: url(https://ebank.tpb.vn/retail/vX/transfer.0fb2108afe67c31f43ed.svg);
+}
+.content-transaction {
+    margin-bottom: 20px;
+    position: relative;
+}
+.list-transaction {
+    max-height: 720px;
+    overflow: auto;
+    background: #fff;
+}
+
+.container-transaction, .not-transaction {
+    display: inline-block;
+    width: 49%;
+    padding: 20px;
+    height: 144px;
+    border-bottom: 1px solid #eff1f8;
+}
+.container-transaction:nth-child(odd) {
+    border-right: 1px solid #eff1f8;
+}
+.date-content {
+    display: flex;
+    align-items: center;
+}
+.date-content .date-left {
+    width: 2.09em;
+    height: 2.09em;
+    border-radius: 5px;
+    background-color: #f6f6fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 17px;
+    margin-right: 10px;
+}
+.date-content .date-right p:first-child {
+    font-weight: 500;
+}
+.date-content .date-right p {
+    margin: 0;
+    padding: 4px 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+.date-content .date-right .day-bold {
+    font-weight: 500;
+}
+
+.transaction-main {
+    margin-top: 15px;
+}
+.credit-name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.resize {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.detail-record {
+    width: 60%;
+    margin-right: 5px;
+}
+.resize {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.detail-record:hover {
+    color: #ff9800;
+    cursor: pointer;
+}
+.money-transfer {
+    font-size: 16px;
+    font-weight: 500;
+    width: 40%;
+    text-align: end;
+}
+.resize {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item-detail {
+    display: flex;
+    align-items: center;
+}
+.text-type {
+    font-size: 12px;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.search-by-key {
+    box-shadow: 0 4px 24px 0 rgb(0 0 0 / 10%);
+    position: absolute;
+    width: 50%;
+    background: #fff;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 24px 0 rgb(0 0 0 / 10%);
+}
+
+.search-by-catalogue {
+    position: absolute;
+    background: #fff;
+    right: 0;
+    top: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 24px 0 rgb(0 0 0 / 10%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 355px;
+}
+
+.search-by-catalogue ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.search-by-catalogue .catalogue-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #e6e9ee;
+    background: #fff;
+    cursor: pointer;
+}
+.search-by-catalogue .catalogue-item span {
+    pointer-events: none;
+}
+.search-by-catalogue .catalogue-item span {
+    pointer-events: none;
+}
+.search-by-catalogue .catalogue-item .icon-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.search-by-catalogue .catalogue-item .internal-type {
+    background: #ff9800;
+}
+.check-circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url(https://ebank.tpb.vn/retail/vX/Icons_Check.d2c4cb0122a9461f1267.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+}
+.search-by-catalogue .catalogue-item span {
+    pointer-events: none;
+}
+.button-search {
+    display: flex;
+    justify-content: space-between;
+    padding: calc(5.1% + 4px);
+    flex-wrap: wrap-reverse;
+}
+.button-search .button {
+    max-width: 150px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: none;
+    text-align: center;
+}
+.button-search .button {
+    max-width: 150px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: none;
+    text-align: center;
+}
+
+.download-area {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    color: #ff9800;
+    cursor: pointer;
+}
+
+.download-area .down {
+    cursor: pointer;
+}
+.download-area .down img {
+    margin-right: 6px;
+}
+
+/*detail transaction */
+.transaction-modal .amount-info {
+    width: 100%;
+    padding-bottom: 16px;
+    margin-top: 24px;
+}
+.transaction-modal .amount-info .amount-title {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #ad8ad8;
+    word-wrap: break-word;
+}
+.transaction-modal .amount-info .amount-detail {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -5px;
+    padding-top: 0;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    word-wrap: break-word;
+}
+.transaction-modal .account-info {
+    padding: 20px 30px;
+}
+
+.transaction-modal .account-info .text_1 {
+    width: 100%;
+    font-weight: 400;
+    color: #ad8ad8;
+    word-wrap: break-word;
+}
+.transaction-modal .account-info .text_2 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    color: #42236a;
+    word-wrap: break-word;
+    margin-top: 7px;
+}
+.transaction-modal .account-info .text_3 {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #42236a;
+    word-wrap: break-word;
+    margin-top: 7px;
+}
+.transaction-modal .line {
+    width: calc(100% - 60px);
+    height: 1.01px;
+    margin-left: 30px;
+    background-color: #e1e3e8;
+}
+.transaction-modal .detail-wrap {
+    padding: 8px 30px 24px;
+}
+.transaction-modal .detail-wrap .record {
+    display: flex;
+    margin-top: 8px;
+}
+.transaction-modal .detail-wrap .record .left-content {
+    font-size: 14px;
+    text-align: left;
+    width: 168px;
+}
+.transaction-modal .detail-wrap .record .right-content {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    width: calc(100% - 168px);
+}
+.text-secondary {
+    color: #FF9800 !important;
+}
+/*End detail transaction */
+
+
+/* End inquiry transfer*/
+
+@media only screen and (max-width: 768px) {
+    /*inquiry transfer */
+    .list-transaction {
+        max-width: 740px;
+    }
+    .search-by-key {
+        width: 55%;
+    }
+    /*end inquiry transfer */
+   
+}
+
+
+@media screen and (max-width: 575px) {
+    /*Inquiry transfer */
+    .nav-tab {
+         width: max-content;
+         padding: 0;
+     }
+     .button-header-item {
+         font-size: 10px;
+     }
+ 
+     .icon {
+         width: 20px;
+     }
+ 
+     .button-header-item {
+         font-size: 10px;
+     }
+     .container-transaction {
+         width: 100%;
+         border: 1px solid #eff1f8;
+     }
+     .search-by-key {
+         width: 100%;
+     }
+     .button-search .button {
+         max-width: none;
+     }
+     .button-search .btn-ok {
+         margin-bottom: 15px;
+     }
+    /*End inquiry transfer */
+ }
+ 
