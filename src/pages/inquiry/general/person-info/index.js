@@ -36,7 +36,7 @@ function PersonInfoPage() {
                             <div className="header">
                                 <span className="txt-label">Họ và tên</span>
                             </div>
-                            <span className="txt-value">TANO</span>
+                            <span className="txt-value">DOAN</span>
                         </div>
                     </div>
                     <div className="customer-left-item" id="personal_information_phonenumber">

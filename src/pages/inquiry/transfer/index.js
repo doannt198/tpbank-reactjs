@@ -133,7 +133,7 @@ function InquiryTransferPage() {
                             </div>
                             <div className="account-info">
                                 <div className="text_1"><span>Từ tài khoản</span></div>
-                                <div className="text_2"><span>TANO</span></div>
+                                <div className="text_2"><span>DOAN</span></div>
                                 <div className="text_3"><span>124234234</span></div>
                             </div>
                             <div className="line" />

@@ -48,7 +48,7 @@ function SavingAutorollSettingPage() {
                                     {/* Hiển thị dropdown :  select-container__wrap-items--height */}
                                     <div className="select-container__select-option">
                                         <div className="account-detail">
-                                            <span style={{ fontSize: '16px', fontWeight: 500 }}>TANO</span>
+                                            <span style={{ fontSize: '16px', fontWeight: 500 }}>DOAN</span>
                                             <span>124234234</span>
                                             <span>706,555 VND</span>
                                         </div>

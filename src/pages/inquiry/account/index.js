@@ -7,7 +7,7 @@ function InquiryAccountPage() {
                     <img alt="" height={60} src="https://ebank.tpb.vn/retail/vX/assets/images/account-logo.png" width={60} />
                 </div>
                 <div className="account-card-right">
-                    <div className="name">TANO</div>
+                    <div className="name">DOAN</div>
                     <div className="bban">124234234</div>
                     <div className="money"> 706,555 VND</div>
                 </div>

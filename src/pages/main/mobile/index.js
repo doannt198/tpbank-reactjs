@@ -7,7 +7,7 @@ function MobilePage() {
                     <div className="mx-auto" style={{ marginBottom: '18px', maxWidth: '496px' }}>
                         <div className="debit-acc-selector">
                             <div className="label-color">Từ tài khoản</div>
-                            <div className="fw-500 mt-2"> TANO </div>
+                            <div className="fw-500 mt-2"> DOAN </div>
                             <div className="fw-500"> 124234234 </div>
                             <div className="fw-500 mt-2" style={{ fontSize: '20px' }}> 706,555 VND </div>
                         </div>

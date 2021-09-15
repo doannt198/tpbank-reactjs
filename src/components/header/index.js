@@ -30,10 +30,10 @@ function HeaderComponent() {
                     <span className="avatar">
                         <div className="avatar-container" style={{ width: '30px', height: '30px' }}>
                             <div className="avatar-content" style={{ textAlign: 'center', borderRadius: '100%', textTransform: 'uppercase', color: 'rgb(255, 255, 255)', backgroundColor: 'rgb(127, 140, 141)', fontSize: '12px', lineHeight: '30px', fontWeight: 500 }}>
-                                TT </div>
+                                TD </div>
                         </div>
                     </span>
-                    <span className="user-name">TANO</span>
+                    <span className="user-name">DOAN</span>
                     <i className="fas fa-chevron-down" />
                 </div>
                 <div className="user-menu" hidden>

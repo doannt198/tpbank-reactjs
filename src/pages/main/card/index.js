@@ -12,7 +12,7 @@ function CardPage() {
                                 <div className="slider-card">
                                     <div className="card-no">9704 23** **** 0461</div>
                                     <div className="card-number">07/18</div>
-                                    <div className="card-balances">TANO</div>
+                                    <div className="card-balances">DOAN</div>
                                 </div>
                             </div>
                             <div className="card-slider-slide swiper-slide swiper-slide-next" style={{ backgroundImage: 'url("assets/images/card/debit.svg")', marginRight: '40px' }}>

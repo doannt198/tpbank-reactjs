@@ -8,7 +8,7 @@ function TransferBathListPage() {
                         <div className="slide-section mx-auto mb-4" style={{ maxWidth: '500px' }}>
                             <div className="debit-acc-selector">
                                 <div className="label-color">Từ tài khoản</div>
-                                <div className="fw-500 mt-2"> TRAN NGOC TAN </div>
+                                <div className="fw-500 mt-2"> NGUYEN TIEN DOAN </div>
                                 <div className="fw-500"> 0210 5921 501 </div>
                                 <div className="fw-500 mt-2" style={{ fontSize: '20px' }}> 5,283 VND </div>
                             </div>
@@ -84,7 +84,7 @@ function TransferBathListPage() {
                                         </div>
                                         <div className="account-detail">
                                             <span className="title">Từ tài khoản </span>
-                                            <div className="account-name text-in-div"> TRAN NGOC TAN
+                                            <div className="account-name text-in-div"> NGUYEN TIEN DOAN
                                             </div>
                                             <div className="account-number text-in-div"> 0210 5921 501
                                             </div>

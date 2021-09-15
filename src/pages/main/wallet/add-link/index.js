@@ -76,7 +76,7 @@ function AddLinkPage() {
                         <div className="modal-body">
                             <div className="change-acc-modal-content-wrapper">
                                 <div className="account-info">
-                                    <div className="acc-name">TANO</div>
+                                    <div className="acc-name">DOAN</div>
                                     <div className="acc-number">02234234</div>
                                     <div className="acc-balance-line">
                                         <span className="acc-balance">706,555 VND</span>

@@ -6,7 +6,7 @@ function InquiryVatPage() {
             <div className="vat-home">
                 <div className="title">Quý khách vui lòng chọn tài khoản mong muốn</div>
                 <div className="card-acc-info">
-                    <div className="acc-name">TANO</div>
+                    <div className="acc-name">DOAN</div>
                     <div className="acc-number">124234234</div>
                     <div className="acc-item">
                         <span className="amount">706,555 VND</span>

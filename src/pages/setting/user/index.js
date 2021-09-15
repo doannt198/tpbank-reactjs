@@ -13,7 +13,7 @@ function SettingUserPage() {
                     </div>
                     <div className="customer-info__full-name">
                         <div className="title-item">Họ và tên</div>
-                        <div>TANO</div>
+                        <div>DOAN</div>
                     </div>
                     <div className="customer-info__phone-number">
                         <div className="title-item">Số điện thoại</div>

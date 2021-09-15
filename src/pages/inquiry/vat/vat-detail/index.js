@@ -6,7 +6,7 @@ function VatDetailPage() {
                 <div className="button-right-header">
                     <div className="content">
                         <div style={{ cursor: 'pointer' }}>
-                            <span className="acc-selected">TANO</span>
+                            <span className="acc-selected">DOAN</span>
                             <img alt="" src="https://ebank.tpb.vn/retail/vX/assets/icons/down.svg" />
                             <div className="list-account shadow-btn d-none">
                                 <div className="list-account-item">
@@ -14,7 +14,7 @@ function VatDetailPage() {
                                         <i className="fas fa-check d-block" />
                                     </div>
                                     <div className="info">
-                                        <span className="account-name">TANO</span>
+                                        <span className="account-name">DOAN</span>
                                         <span className="account-number">124234234</span>
                                     </div>
                                 </div>

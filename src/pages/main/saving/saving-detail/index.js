@@ -77,7 +77,7 @@ function SavingDetailPage() {
                             </div>
                             <div className="detail-package acc-accept">
                                 <h5>Tài khoản nhận</h5>
-                                <h6>TANO</h6>
+                                <h6>DOAN</h6>
                                 <p>124234234</p>
                             </div>
                         </div>

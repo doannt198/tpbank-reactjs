@@ -42,7 +42,7 @@ function NotificationPage() {
                                 PS:-3.565.000VND
                                 SD: 1.005.283VND
                                 SD KHA DUNG: 1.005.283VND
-                                ND: TRAN NGOC TAN chuyen tien</div>
+                                ND: NGUYEN TIEN DOAN chuyen tien</div>
                             <div className="date">22/06 17:43</div>
                             <i className="fas fa-trash btn-delete" />
                         </div>

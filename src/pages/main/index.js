@@ -6,7 +6,7 @@ function MainPage() {
                 <div className="swiper-wrapper" style={{ transitionDuration: '0ms', transform: 'translate3d(200px, 0px, 0px)' }}>
                     <div className="acc-slider-slide swiper-slide swiper-slide-active" style={{ marginRight: '25px' }}>
                         <div className="acc-slider-card">
-                            <div className="card-name">TANO</div>
+                            <div className="card-name">DOAN</div>
                             <div className="card-number">124234234</div>
                             <div className="card-balances"> 706,555 <span>VND</span>
                                 <img className="eye" src="./assets/images/main/ic_un-eye.png" alt="ic_un-eye"/>

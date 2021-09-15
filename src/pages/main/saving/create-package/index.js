@@ -67,7 +67,7 @@ function SavingCreatePackagePage() {
                         <div className="select-account">
                             <div className="debit-acc-selector">
                                 <div className="label-color">Từ tài khoản</div>
-                                <div className="fw-500 mt-2"> TRAN NGOC TAN </div>
+                                <div className="fw-500 mt-2"> NGUYEN TIEN DOAN </div>
                                 <div className="fw-500"> 0210 5921 501 </div>
                                 <div className="fw-500 mt-2" style={{ fontSize: '20px' }}> 5,283 VND
                                 </div>
@@ -148,7 +148,7 @@ function SavingCreatePackagePage() {
                             <div className="position-relative tpb-dropdown">
                                 <div className="child-2-side display-area active">
                                     <div>
-                                        <span>0210 5921 501 - TRAN NGOC TAN</span>
+                                        <span>0210 5921 501 - NGUYEN TIEN DOAN</span>
                                     </div>
                                     <div className="text-secondary">
                                         <i className="fas fa-chevron-down" />

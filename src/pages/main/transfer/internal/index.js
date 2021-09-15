@@ -136,7 +136,7 @@ function TransferInternalPage() {
                                             <i className="fas fa-gift" />
                                         </div>
                                         <div className="hint">Chuyen tien</div>
-                                        <div className="hint">TRAN NGOC TAN chuyen tien</div>
+                                        <div className="hint">NGUYEN TIEN DOAN chuyen tien</div>
                                     </div>
                                 </div>
                                 <div className="remarks common-config-height common-config-customize">

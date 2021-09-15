@@ -21,7 +21,7 @@ function SettingDefaultPage() {
                 </div>
                 <div className="content-container position-relative">
                     <div className="label-color"> Tài khoản liên kết với số điện thoại </div>
-                    <div className="value-color fw-500 txt-16 mt-2"> TANO &nbsp; </div>
+                    <div className="value-color fw-500 txt-16 mt-2"> DOAN &nbsp; </div>
                     <div className="value-color fw-500 txt-16 mt-2"> 234341 </div>
                 </div>
             </div>

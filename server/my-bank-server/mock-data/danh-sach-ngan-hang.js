@@ -428,7 +428,7 @@ return {
             "cif": "02105921",
             "status": "UPDATED",
             "contactType": "INTERBANK_ACCT",
-            "creditorName": "TRAN NGOC TAN",
+            "creditorName": "NGUYEN TIEN DOAN",
             "accountNumber": "201390389",
             "extBankId": "970432",
             "citadBankCode": "309",
